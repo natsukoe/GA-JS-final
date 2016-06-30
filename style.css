@@ -1,0 +1,62 @@
+.row {
+	padding: 0 20px;
+}
+h1 {
+	margin-top: -5px;
+	background: #00247d;
+	color: #fff;
+	padding: 10px;
+}
+#movie-list dl {
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+#movie-list dt {
+	clear: both;
+}
+#movie-list dd {
+	padding: 0 5px;
+}
+#movie-list dt, #movie-list dd {
+	float: left;
+}
+.movie-length {
+	display: none;
+}
+#movie-list a, .fa-sticky-note {
+	color: #cf142b;
+}
+.width-640 {
+	max-width: 670px;
+}
+.duration {
+	font-style: italic;
+	text-align: right;
+}
+h2 {
+	min-width: 400px;
+	margin: 0 10px 0 0;
+	float: left;
+	overflow: hidden;
+}
+.main-btn {
+	width: 100px;
+	float: right;
+	overflow: hidden;
+}
+.btn-uk-red {
+	color: #fff;
+    background-color: #cf142b;
+    font-size: 20px;
+    padding: 0 6px;
+    margin: 0 5px;
+}
+.note {
+	clear: both;
+	overflow: hidden;
+	margin-top: 60px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #00247d;
+}
+
