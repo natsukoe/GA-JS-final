@@ -193,8 +193,7 @@ $(document).ready(function() {
 $(document.body).on('click', '.edit' ,function(){
     console.log('edit clicked!!');
 
-
-  function updateMessage(id, message) {
+function updateMessage(id, message) {
     var messageReference = new Firebase('https://natsuko-first-project.firebaseio.com/messages/' + id);
 
     messageReference.update({
@@ -202,23 +201,26 @@ $(document.body).on('click', '.edit' ,function(){
     });
 
   }
-    
+
 });
 
-
+  
 
 
   // Delete functionality
   $(document.body).on('click', '.delete' ,function(){
     console.log('delete clicked!!');
 
-    function deleteMessage(id) {
-      var messageReference = new Firebase('https://natsuko-first-project.firebaseio.com/messages/' + id);
+function deleteMessage(id) {
+    var messageReference = new Firebase('https://natsuko-first-project.firebaseio.com/messages/' + id);
 
-      messageReference.remove();
-    }
+    messageReference.remove();
+  }
 
   });
+
+
+  
 
   
 
