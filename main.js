@@ -192,37 +192,28 @@ $(document).ready(function() {
 // Update Functionality
 $(document.body).on('click', '.edit' ,function(){
     console.log('edit clicked!!');
+});
 
-function updateMessage(id, message) {
+  function updateMessage(id, message) {
     var messageReference = new Firebase('https://natsuko-first-project.firebaseio.com/messages/' + id);
 
     messageReference.update({
-      message: 'fu man shu'
+      message: 'pretending to be edited :)'
     });
 
   }
-
-});
-
-  
 
 
   // Delete functionality
   $(document.body).on('click', '.delete' ,function(){
     console.log('delete clicked!!');
+  });
 
-function deleteMessage(id) {
+  function deleteMessage(id) {
     var messageReference = new Firebase('https://natsuko-first-project.firebaseio.com/messages/' + id);
 
     messageReference.remove();
   }
-
-  });
-
-
-  
-
-  
 
 });
 
